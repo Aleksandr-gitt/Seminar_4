@@ -15,7 +15,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите степень в которую необходимо возвести введенное ранее число: ");
 int power = Convert.ToInt32(Console.ReadLine());
 
-if(power >= 0) ras4et(number, power); 
+if(power >= 0) ras4et(number, power);
 else Console.WriteLine("У вас отрицательная степень числа");
     
    
